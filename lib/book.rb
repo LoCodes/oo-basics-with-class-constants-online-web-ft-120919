@@ -11,5 +11,10 @@ class Book
   def turn_page
     puts "Flipping the page...wow, you read fast!"
   end
+  
+  def genr=(genre)
+    @genre = genre 
+    GENRES << genre
+  end
 
 end
